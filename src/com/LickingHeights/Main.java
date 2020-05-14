@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int size = 10;
-        int lowestNumber = 0;
-        int highestNumber = 10;
+//        int size = 10;
+//        int lowestNumber = 0;
+//        int highestNumber = 10;
+//
+//
+//        int[] array = createNumberArray(size, lowestNumber, highestNumber);
 
-
-        int[] array = createNumberArray(size, lowestNumber, highestNumber);
-
+        Pattern1();
         
-
     }
 
     public static int[] createNumberArray(int size, int lowestNumber, int highestNumber) {
@@ -38,7 +38,21 @@ public class Main {
         return number;
     }
 
+    public static void Pattern1(){
+        for(int rows=0; rows < 6; rows++){
 
+            for(int columns = 0; columns < 6; columns++){
+                System.out.print("*");
+            }
+
+            System.out.println();
+
+
+        }
+
+
+
+    }
 
 
 }
